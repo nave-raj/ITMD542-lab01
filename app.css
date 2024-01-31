@@ -6,7 +6,6 @@ h1, h2{
     color:  #f09960;
 }
 
-
 a:link, a:visited {
     background-color: #f09960;
     border: none;
@@ -21,10 +20,6 @@ a:link, a:visited {
 
 a:hover {
     background-color: #333;
-}
-
-td p{
-    padding: 10px;;
 }
 
 header h1 {
@@ -66,7 +61,6 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding: 20px;
 }
 
@@ -89,8 +83,32 @@ header p {
     border-radius: 3px;
 }
 
+.centered-cell {
+  flex:1;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 60%;
+    background-color: rgb(246, 242, 242);
+    margin: auto;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .mb-10 {
